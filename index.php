@@ -45,7 +45,134 @@
 
 ._640 .mobile,._1000 .mobile{ display: none!important;}
 ._640 .desktop,._1000 .desktop{ display: block!important;}
-</style> 
+</style>
+
+<style type="text/css">
+	.recentcomments a{
+		display:inline !important;
+		padding:0 !important;
+		margin:0 !important;
+	}
+</style>
+
+<style type="text/css">.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.html");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<style type="text/css">
+#comentarios_face{
+	font-family: Arial;
+	background-color: #F6F7F9;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.titulo_comentario{
+	font-weight: bold;
+	border-bottom: 1px solid #E9EBEE;
+	display: block;
+	padding-bottom: 6px;
+}
+
+.perfil{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+
+.perfil p{
+	margin: 0;
+	margin-left: 60px;
+	margin-bottom: 0px;
+}
+
+.perfil img{
+	width: 50px;
+	height: 50px;
+}
+
+.perfil .nome{
+	color: #365899;
+	font-weight: bold;
+}
+
+.infos span{
+	color: #4267B2;
+	text-decoration: none;
+}
+
+.infos{
+	font-size: 11px;
+	color: #90949c;
+}
+
+.nome img{
+	float: left;
+	padding-right: 10px;
+}
+
+.perfil2{
+	padding-left: 9px;
+    border-left: 1px solid #E9EBEE;
+    margin-left: 50px;
+    padding-bottom: 0;
+}
+
+#cronos{
+	height: auto;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+	background-image: url("https://randersonaraujo.com/estrutura/wp-content/b.png");
+}
+
+a.btn-time:link, 
+a.btn-time:visited{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.relogio{
+	font-size: 24px;
+	color: #FFF;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.relogio span{
+    font-weight: bold;
+    font-family: Montserrat, Arial, Helvetica;
+    color: #f2e122;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.relogio .cr{
+	color: #FFF;
+	display: inline-block;
+}
+
+#comb{
+	display: block;
+	max-width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+</style>
 
 <main>
 	
@@ -166,6 +293,66 @@
 		</li>
 	</ul>
 </section><!--chamadas-->
+
+<div class="fixed-width" style="padding: 20px !important;">
+
+<div class="one-column column cols" id="le_body_row_4_col_1">
+
+<div class="element-container cf" data-style="" id="le_body_row_4_col_1_el_1">
+<div class="element"> 
+<div class="op-custom-html-block">
+<div id="comentarios_face">
+<span class="titulo_comentario">34 comentários</span>
+<div class="perfil"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-13.jpg" alt=""/><strong>Rodrigo Cunha</strong> disse:</span>
+<p><p>Super indico!!! <br>
+Parabénspelo profissionalismo!!!<br>
+Após fazer este treinamento, indiquei nossa equipe e...<br>
+Vou deixar eles falarem!!</p>
+<span class="infos">Responder · Curtir · Seguir · 40 min</span>
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-23.jpg" alt=""/><strong>Pâmela Caroline</strong> disse:</span>
+<p>Muito Bom, realmente vai do básico ao avançado! A cada dia aprendo mais com o curso!!!<br></p>
+<span class="infos">Responder · Curtir · Seguir · 22 min </span></div>
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-22-1.jpg" alt=""/><strong>Juliana Costa</strong> disse:</span>
+<p> Curso excelente, indico a todos que querem uma renda online!</p>
+<span class="infos">Responder · Curtir · Seguir · 28 min </span></div>
+
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/pamela.jpg" alt=""/><strong>João Vitor Monteiro</strong> disse:</span>
+<p> Fiz minha primeira venda graças a este curso e comunidade no Telegram sempre me ajuda quando tenho dificuldades.. Indico de olhos fechados!</p>
+<span class="infos">Responder · Curtir · Seguir · 30 min </span></div>
+
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/rebeca.jpg" alt=""/><strong>Matheus Dias</strong> disse:</span>
+<p> Super indico!!! <br>
+Apesar de trabalhar na área a 2 anos, precisava do conhecimento atualizado que tem neste curso, da pra perceber que os caras vivenciam na prática o que ensinam! Indico pra todo mundo!!</p>
+<span class="infos">Responder · Curtir · Seguir · 37 min </span></div>
+
+</div>
+<div class="perfil"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-9.jpg" alt=""/>Gustavo Silva:</span>
+<p>Curso muito bom mesmo eu fiz foi maravilhoso! Super indico!</p>
+<span class="infos">Responder · Curtir · Seguir · 43 min</span></div>
+<div class="perfil"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-7.jpg" alt=""/><strong>Fabio Flaverlei de Almeida</strong> disse:</span>
+<p>Super indicado esse curso!! fiz e farei mil vezes !!!!!!</p>
+<span class="infos">Responder · Curtir · Seguir · 50 min </span></div>
+<div class="perfil"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-6.jpg" alt=""/><strong>Sol Nascente</strong>disse:</span>
+<p>Muito bom!!!</p>
+<span class="infos">Responder · Curtir · Seguir · 1 dia </span></div>
+<div class="perfil"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-4.jpg" alt=""/><strong>Érika Lima</strong> disse:</span>
+<p>O valor desse curso dava pra ser maior pelo conteúdo que é passado! Sério mesmo, vocês vão amar.</p>
+<span class="infos">Responder · Curtir · Seguir · 2 dias </span></div>
+<div class="perfil"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92.jpg" alt=""/><strong>Klea Souza</strong> disse:</span>
+<p>Recomendo, esse curso tem a base pra quem tá começando!</p>
+<span class="infos">Responder · Curtir · Seguir · 3 dias</span>
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-10.jpg" alt=""/><strong>Herika Borges</strong> disse:</span>
+<p>Esse valor do curso todo?</p>
+<span class="infos">Responder · Curtir · Seguir · 3 dias </span></div>
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92.jpg" alt=""/><strong>Klea Souza</strong> disse:</span>
+<p>Herika Borges, isso mesmo! Mas eu acho que não vai demorar aumentar porquê tá dado!</p>
+<span class="infos">Responder · Curtir · Seguir · 2 sem </span></div>
+<div class="perfil perfil2"><span class="nome"><img src="https://randersonaraujo.com/estrutura/wp-content/uploads/2017/01/avatar92-10.jpg" alt=""/><strong>Herika Borges</strong> disse:</span>
+<p>Obrigada, vou me inscrever logo também kkkkk</p>
+<span class="infos">Responder · Curtir · Seguir · 3 sem </span></div>
+</div>
+</div></div> </div></div></div></div>
+
 <footer style="background-color: #000;">
 	<div class="centro">
 		<a href="http://esquematiza.com.br/site-emergencia1/termos-de-uso/" target="_blank">Termos de uso</a>

@@ -24,7 +24,7 @@ if(isset($_GET["wpp"])){
 		</a>
 	</nav>
 
-	<div class="container mt-4">
+	<div class="container mt-4 mb-2">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item" aria-current="page">Mentoria Gratuita</li>
@@ -32,11 +32,11 @@ if(isset($_GET["wpp"])){
 			</ol>
 		</nav>
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/knWKd3jp8qc"></iframe>
+			<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/481499316?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>			
 		</div>
 
 		<center>
-		<div id="delayDiv" class="mt-2" style="display: none;">
+		<div id="delayDiv" style="display: none;">
 			<h4>Aprenda ainda mais sobre esta profissão agora!</h4><br>
 			<h5>Você quer ter ganhos como estes, trabalhando do conforto da sua casa, ou onde quiser?</h2><br>
 			<button type="button" onclick="window.open('https://wa.me/<?php echo "55".$wpp; ?>')" class="btn btn-danger btn-lg">Quero esta oportunidade!</button>
