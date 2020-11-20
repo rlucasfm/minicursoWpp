@@ -53,18 +53,21 @@
 		<h1>Nesta <b>Mentoria Gratuita</b> eu vou te mostrar de uma vez<b> Como Começar Seu Negócio Digital</b> Mesmo que Você Ainda Seja Iniciante.</b></h1>
 
 		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
-     	<form method="POST" id="form">
+     	<form id="form">
 			<input class="formkit-input" id="nome" placeholder="Qual é o seu nome?" style="margin-top: 5px;" type="text" name="nome" required>			
 			<input type="email" id="email" name="email" class="formkit-input" placeholder="Me conte o seu melhor e-mail!" style="margin-top: 5px;" required>			
-			<button type="button" id="form_submit" class="formkit-submit btn">Quero Assistir o Curso</button>						
+			<button type="submit" id="form_submit" class="formkit-submit btn">Quero Assistir o Curso</button>						
 			<h3 class="desktop">Conteúdo Atualizado</h3>
 		</form>
 
         <?php if(isset($_GET["wpp"])){
             $wpp = $_GET["wpp"];
-        } ?>
+        	}else{
+				$wpp = "";
+			} ?>
 		<script>
-			$('#form_submit').on('click', () => {
+			$('#form').on('submit', (e) => {
+				e.preventDefault();
 				var email = $('#email').val();
 				var nome = $('#nome').val();
 				$.ajax({					
@@ -73,9 +76,9 @@
                     url: "postreq.php",
                     success: function(data){
                         console.log(data);
-						window.location.href='curso.php?wpp=';						
+						location.href='curso.php?wpp=<?php echo $wpp; ?>';							
                     }
-                })				
+                })							
 			})
 		</script>
 		
